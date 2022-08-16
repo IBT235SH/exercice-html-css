@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMULAIRE</title>
+    <link rel="stylesheet" href="for.css">
+<meta charset="utl-8">
+<script src="for.js" defer></script>
+</head>
+<body>
+<main>
+  <div class="stepper">
+    <div class="step--1 step-active">Étape 1</div>
+    <div class="step--2">Étape 2</div>
+    <div class="step--3">Étape 3</div>
+    <div class="step--4">validation</div>
+  </div>
+  <form class="form form-active">
+    <div class="form--header-container">
+      <h1 class="form--header-title">
+        Informations personelles
+      </h1>
+
+      <p class="form--header-text">
+        .
+      </p>
+    </div>
+    <input type="text" placeholder="Nom" />
+    <input type="text" placeholder="Email" />
+    <input type="password" placeholder="mot de passe"/>
+    <input type="text" placeholder="genre" />
+    <input type="text" placeholder="pays" />
+    <button class="form__btn" id="btn-1">suivant</button>
+    
+  </form>
+  <form class="form">
+    <div class="form--header-container">
+      <h1 class="form--header-title">
+        tes compétence.
+      </h1>
+    </div>
+
+    <input type="text" placeholder="experience pro" />
+    <input type="text" placeholder="experience" />
+    <input type="text" placeholder="langage de programmation que vous connaisser" />
+    <button class="form__btn" id="btn-2-prev">Previous</button>
+    <button class="form__btn" id="btn-2-next">suivant</button>
+  </form>
+  <form class="form">
+    <div class="form--header-container">
+      <h1 class="form--header-title">
+        Social account
+      </h1>
+
+      <p class="form--header-text">
+     réseaux sociaux.
+      </p>
+    </div>
+    <input type="text" placeholder="Linkedin" />
+    <input type="text" placeholder="Twitter" />
+    <input type="text" placeholder="Github" />
+    <button class="form__btn" id="btn-3">valider</button>
+  </form>
+  <div class="form--message"></div>
+</main>
+</body>
+</html>

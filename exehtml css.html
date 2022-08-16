@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title>formulaire</title>
+<meta charset="utl-8">
+</head>
+<body>
+<h1>formulaire</h1>
+<fieldset >
+<legend bgcolor="orenge"><h2>Informations personellehs</h2></legend>
+<form>
+  <p>
+    Nom :<br>
+    <input type="text" name="Nom" size="40" maxlength="40"><br>
+    Prénom :<br>
+    <input type="text" name="Prenom" size="40" maxlength="40"><br>
+    Adresse :<br>
+    <input type="text" name="Adresse" size="40" maxlength="40"><br>
+	 Age :<br>
+    <input type="text" name="Age" size="40" maxlength="40"><br>
+  </p>
+</form>
+<form action="">
+  <p>
+ 
+	<form action="">
+  <input type="radio" name="Groupedage" value="femme"/>femme
+  <input type="radio" name="Groupedage" value="homme"/> homme
+</form>
+  </p>
+
+ Pays :<br>
+    <select name="Pays">
+      <option value="Question"selected="selected">Quel est votre pays d'origine</option>
+      <option value="Allemagne">Allemagne</option>
+      <option value="Australie">Australie</option>
+      <option value="Belgique">Belgique</option>
+      <option value="france" >france</option>
+      <option value="États-Unis">États-Unis</option>
+      <option value="MAROC">MAROC</option>
+      <option value="Grande-Bretagne">Grande-Bretagne</option>
+      <option value="Suisse">Suisse</option>
+    </select>
+</fieldset>
+
+
+	<fieldset>
+<legend><h2>compétence/expérien</h2></legend>
+<form>
+  <table>
+    <tr>
+      <td>
+        <input type="checkbox" name="langage" value="HTML">HTML
+        <input type="checkbox" name="langage" value="CSS">CSS
+      </td>
+      <td>
+        <input type="checkbox" name="langage" value="JavaScript">JavaScript
+        <input type="checkbox" name="langage" value="PHP">PHP
+      </td>
+      <td>
+        <input type="checkbox" name="langage" value="SQL">SQL
+        <input type="checkbox" name="langage" value="SEO">SEO
+      </td>
+    </tr>
+  </table
+</form>
+
+<form>
+  <p>décrivez une experience pro :<br>
+    <textarea name="Commentaires" cols="30" rows="5" >
+    </textarea>
+  </p>
+</form>
+</fieldset>
+
+	<fieldset>
+<legend><h2>validation</h2></legend>
+<form>
+  <p>
+    Entrez votre mot de passe :
+    <input type="password" name="motdepasse" size="20" maxlength="20"/>
+  </p>
+</form>
+<form action="">
+  <p>
+    <input type="button" value="valider"
+           onclick="alert('vous avez cliqué sur le bouton message')"/>
+  </p>
+</form>
+</fieldset>
+
+</body>
+</html>
